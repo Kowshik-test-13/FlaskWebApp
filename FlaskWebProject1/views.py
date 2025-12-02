@@ -37,11 +37,12 @@ def about():
     )
 
 
-@app.route('/kamran')
+@app.route('/kowshik')
 def muhabbat():
-    """Renders the kamran page."""
+    """Renders the kowshik
+    page."""
     return render_template(
-        'kamran.html',
-        title='Kamran Page',
-        message='Welcome to Kamran\'s page!'
+        'Kowshik.html',
+        title='Kowshik Page',
+        message='Welcome to Kowshik\'s page!'
     )
